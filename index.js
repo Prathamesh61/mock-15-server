@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 const cors = require("cors");
-const { ticketRouter } = require('./routes/ticket.route');
+const { ticketRouter } = require('./routes/Ticket.route');
 app.use(cors());
 
 app.get("/", (req, res) => {
